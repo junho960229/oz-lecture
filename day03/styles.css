@@ -1,0 +1,65 @@
+* {
+    margin: 2px;
+    padding: 2px;
+}
+
+header {
+    border : 4px solid green;
+}
+
+#header-title {
+    font-size: 64px;
+    color: purple;
+}
+
+main h3 {
+    color: blue;
+}
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+.link {
+    font-size: 24px;
+    color: orangered;
+}
+.link > a {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.article-title {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+[type="text"] {
+    border: 1px dotted gray;
+}
+[href*="example"] {
+    color: red;
+}
+
+#container {
+    background-color: beige;
+}
+#container .contaier-btn {
+    font-size: 20x;
+}
+
+#container .container-item {
+    font-size: 20px;
+}
+#container .container-item:first-child {
+    font-size: 24px;
+}
+#container .container-item:last-child {
+    font-size: 24px;
+}
+#container .container-item::before {
+  content: "🚀";
+}
+#container .container-item:after {
+    content: "!!!";
+}

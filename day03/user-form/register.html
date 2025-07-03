@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 시작 -->
+    <header>
+        <h1>User Registration</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Register">Register</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </nav>
+        <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black"
+            stroke-width="2" fill="blue" />
+        </svg>
+    </header>
+    <!-- 헤더 끝 -->
+    <hr>
+    <!-- 메인 시작-->
+    <main>
+        <!-- 폼시작 -->
+    <form action="#" method="GET" id="registration-form">
+         <section>
+            <h2>Registration Form</h2>
+         </section>
+         <p class="form-group">실험용</p>
+         <p class="form-group"> 실험용2</p>
+        <div>
+        <label for="name" class="essential-info">Name:</label>
+        <input type="text" id="name" name="name"  placeholder="이름을 입력해주세요.">
+        <br>
+        <label for="email" class="essential-info">email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com">
+        <br>
+        <label for="password" class="essential-info">password:</label>
+        <input type="password" id="password" name="password" placeholder="비밀번호를 입력해주세요.">
+        </div>
+        <br>
+        <!-- 생년월일 만족도 -->
+        <div>
+        <label for="birthdate">birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <br>
+        <label for="age">age:</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+        <br>
+        <label for="service-satisfaction">
+            service-satisfaction:</label>
+        <input type="range" id="service-satisfaction" 
+        name="service-satisfaction" min="1" max="10">
+        </div>
+        <br>
+        <!-- 선택 그룹 -->
+        <div>
+            <h2>성별을 선택해주세요.</h2>
+            <input type="radio" id="gender-male" name="gender" value="male">
+            <label for="gender-male">남자</label>
+            <input type="radio" id="gender-female" name="gender" value="female">
+            <label for="gender-female">여자</label>
+            <input type="radio" id="gender-other" name="gender" value="Other">
+            <label for="gender-other">그 외</label>
+        </div>
+        <br>
+        <div>
+            <h2>취미를 선택해주세요.</h2>
+            <input type="checkbox" id="hobby-coding" name="user-hobby" value="coding">
+            <label for="hobby-coding">Coding</label>
+            <input type="checkbox" id="hobby-gaming" name="user-hobby" value="gaming">
+            <label for="hobby-gaming">Gaming</label>
+            <input type="checkbox" id="hobby-reading" name="user-hobby" value="reading">
+            <label for="hobby-reading">Reading</label>
+        </div>
+        <br>
+        <div>
+            <h2>국가를 선택해주세요.</h2>
+            <select name="user-country" id="select-country">
+                <option class="select-country" value="South Korea">South Korea</option>    
+                <option class="select-country" value="USA">USA</option>    
+                <option class="select-country" value="Japan">Japan</option>    
+                <option class="select-country" value="China">China</option>    
+                <option class="select-country" value="UK">UK</option>    
+            </select>
+        </div>
+        <br>
+        <!-- 버튼 동작 -->
+        <div>
+        <button type="submit">제출</button>
+        <button type="reset">초기화</button>
+        </div>
+        <hr>
+        <article>
+            <p class="form-group">why Register? Registering allows you to access exclusive features...</p>
+            <!-- 한 번더 확인하는 멘트 -->
+            <canvas>okay?</canvas>
+        </article>
+        <br>
+        <!-- aside 관련 정보 -->
+        <aside>
+            <h3>Related information</h3>
+            <ul>
+                <li><a href="#Registration Tips">Registration Tips</a></li>
+                <li><a href="#Contact Support">Contact Support</a></li>
+            </ul>
+            <video
+            src="media/sample.mp4" controls width="300">
+            </video>
+        </aside>
+    </form>
+    <!-- 폼 끝 -->
+    </main>
+    <!-- 메인 끝 -->
+    <hr>
+    <!-- 풋터 시작 -->
+    <footer>
+        <p>&copy; 2025 Your Website</p>
+    </footer>
+    <!-- 풋터 끝 -->
+</body>
+</html>

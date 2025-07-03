@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form p {
+    padding: 5px;
+}
+form > p {
+    border-bottom: 5px solid #ccc;
+}
+
+
+[type="text"] {
+    width: 100%; border: 2px solid #ccc;
+}
+[type="email"] {
+    width:100%; border: 2px solid #ccc;
+}
+[type="password"] {
+    width: 100%; border: 2px solid #ccc;
+}
+[type="submit"] {
+    background-color: #007bff; 
+    color: white; padding: 10px 20px;
+}
+[type="reset"] {
+    background-color: #007bff; 
+    color: white; padding: 10px 20px;
+}
+
+label {
+    display: inline-block; width: 100px;
+}
+[name="user-country"] {
+    border: 5px solid #ccc;
+}
+[name="user-country"]:hover {
+    border-color: #007bff;
+}
+[type="submit"]:hover {
+    background-color: #0056b3;
+}
+[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+#registration-form .form-group:first-of-type {
+    margin-top: 50px; color: red;
+}
+
+#select-country .select-country:first-child {
+    font-weight:900;
+}
+
+h1::after {
+    content: "*"; color: red;
+}
+.form-group::after {
+    content: ""; display: block; height: 5px; 
+    background: #ddd; margin-top: 10px;
+}
+
+#registration-form .essential-info::after {
+    content: "*"; color: red;
+}
