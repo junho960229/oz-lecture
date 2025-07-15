@@ -6,6 +6,17 @@
     <title>test</title>
 </head>
 <body>
-    <script src="test.js"></script>
+    <input type="password" id="pwInput" />
+<button onclick="checkPassword()">확인</button>
+
+<script>
+function checkPassword() {
+  const pw = document.querySelector("#pwInput").value;
+
+  if (pw.length < 4) {
+    console.log("최소 4자리 입력하세요.");
+  }
+}
+</script>
 </body>
 </html>

@@ -21,6 +21,11 @@ const person = {
   },
 };
 console.log(person);
+console.log("PrintInfo 실행합니다");
+person.printInfo(); 
+
+
+
 
 // person의 age, isAdult 조회
 console.log("객체에서 . 사용하여 접근"); // 객체에서는 이 방법을 주로 사용
