@@ -18,40 +18,40 @@
     <p class ="item">items</p>
    </div>
    <script>
-    // 엘레먼트의 스타일 직접 조정
-    const pEl = document.querySelector("p");
-    pEl.style.color = "#333333";
-    pEl.style.backgroundColor = "#ff0000";
-    pEl.style.fontsize = "20px";
+    // // 엘레먼트의 스타일 직접 조정
+    // const pEl = document.querySelector("p");
+    // pEl.style.color = "#333333";
+    // pEl.style.backgroundColor = "#ff0000";
+    // pEl.style.fontsize = "20px";
 
-    let isHighLight = true;
+    // let isHighLight = true;
 
-    // 클래스 속성 조정하기
-    if (isHighLight) {
-    const hl = document.querySlector(".hl");
-    console.log(hl);
-    hl.style.color = "#999999";
-    hl.style.backgroundColor = "#ff0000";
-    hl.style.fontSize = "20px";
-    }
+    // // 클래스 속성 조정하기
+    // if (isHighLight) {
+    // const hl = document.querySlector(".hl");
+    // console.log(hl);
+    // hl.style.color = "#999999";
+    // hl.style.backgroundColor = "#ff0000";
+    // hl.style.fontSize = "20px";
+    // }
 
-    // 요소 추가하기
-    const aEl = document.createElement("a") // 요소 노드 생성하기. 아직 dom에 붙이지 않았음.
-    document.body.appendChil(aEl); // body의 자식요소로 aEl을 붙이기
+    // // 요소 추가하기
+    // const aEl = document.createElement("a") // 요소 노드 생성하기. 아직 dom에 붙이지 않았음.
+    // document.body.appendChil(aEl); // body의 자식요소로 aEl을 붙이기
    
-    const txtEl = document.createTextNode("OZ코딩");
-    document.querySelector("a").appendChild(txtEl); // textNode를 a태그 자식요소로 붙이기
+    // const txtEl = document.createTextNode("OZ코딩");
+    // document.querySelector("a").appendChild(txtEl); // textNode를 a태그 자식요소로 붙이기
 
-    const hrefAttr = document.createAttribute("href");
-    hrefAttr.value = "https://www.ozcodingschool.com" 
+    // const hrefAttr = document.createAttribute("href");
+    // hrefAttr.value = "https://www.ozcodingschool.com" 
    
-    // 요소 수정하기
-    aEl.innerHTML = "OZ코딩 바로가기";
-    aEl.textContent = "OZ코딩 바로가기(textContent)";
+    // // 요소 수정하기
+    // aEl.innerHTML = "OZ코딩 바로가기";
+    // aEl.textContent = "OZ코딩 바로가기(textContent)";
 
-    // 요소 삭제하기
-    const textEl = document.querySelector("#text");
-    textEl.remove();
+    // // 요소 삭제하기
+    // const textEl = document.querySelector("#text");
+    // textEl.remove();
 
     // 요소의 부모 찾아가서 삭제하기
     const items = document.querySelectorAll(".item");
